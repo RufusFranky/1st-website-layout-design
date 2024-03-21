@@ -1,0 +1,72 @@
+.outer_middle{
+    width: 90%;
+    height: 280px;
+    /* border: thin solid red; */
+    margin: 0 auto;
+    margin-top: -150px;
+    position: relative;
+}
+.center_middle{
+    width: 98%;
+    height: 250px;
+    margin-top: 8px;
+    margin-left: 12px;
+    /* border: thin solid red; */
+    position: relative; 
+}
+.flot_1{
+    width: 30%;
+    height: 220px;
+    /* border: thin solid rgb(255, 0, 0); */
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px rgb(179, 178, 178);
+    position: absolute;
+}
+.flot_2{
+    width: 30%;
+    height: 220px;
+    /* border: thin solid rgb(255, 0, 0); */
+    float: left;
+    margin-left: 420px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 1px rgb(179, 178, 178);
+    position: absolute;
+}
+.flot_3{
+    width: 30%;
+    height: 220px;
+    /* border: thin solid rgb(255, 0, 0); */
+    float: left;
+    margin-left: 800px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px rgb(179, 178, 178);
+    position: absolute;
+}
+.repair_img{
+    width: 25%;
+    margin-left: 130px;
+    margin-top: 55px
+}
+.improve_img{
+    width: 25%;
+    margin-left: 130px;
+    margin-top: 55px
+}
+.maintain_img{
+    width: 25%;
+    margin-left: 130px;
+    margin-top: 55px
+}
+.flot_1:hover{
+    background-color: rgb(255, 128, 0);
+    color: white;
+}
+.flot_3:hover{
+    background-color: rgb(255, 128, 0);
+    color: white;
+}

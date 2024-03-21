@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.forth_container{
+    height: 500px;
+    /* border: thin solid red; */
+    background-color: white;
+}
+.service_head{
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 100px;
+    height: 95px;
+    /* border: thin solid red; */
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.center_div{
+    margin: 0 auto;
+    width: 85%;
+    height: 280px;
+    /* border: thin solid red; */
+    position: relative;
+}
+.main{
+    width: 30%;
+    height: 220px;
+    /* border: thin solid rgb(255, 0, 0); */
+    float: left;
+    margin-left: 20px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 0px 5px 1px rgb(179, 178, 178);
+    cursor: pointer;
+}
+.elec{
+    width: 30%;
+    height: 220px;
+    /* border: thin solid rgb(0, 0, 0); */
+    float: left;
+    margin-left: 400px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 0px 5px 1px rgb(179, 178, 178);
+    cursor: pointer;
+}
+.plumb{
+    width: 30%;
+    height: 220px;
+    /* border: thin solid rgb(38, 0, 255); */
+    float: left;
+    margin-left: 780px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 0px 5px 1px rgb(179, 178, 178);
+    cursor: pointer;
+}
+.main_img{
+    width: 20%;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.elec_img{
+    width: 20%;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.plumb_img{
+    width: 20%;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+.para_1{
+    font-family: 'Merriweather Sans', sans-serif;
+    /* border: thin solid red; */
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 82px;
+    font-size: 15px;
+    line-height: 23px;
+}
+.main:hover{
+    background-color: rgb(255, 128, 0);
+    color: white;
+    transition-duration: 0.3s;
+}
+.elec:hover{
+    background-color: rgb(255, 128, 0);
+    color: white;
+    transition-duration: 0.3s;
+    
+}
+.plumb:hover{
+    background-color: rgb(255, 128, 0);
+    color: white;
+    transition-duration: 0.3s;
+}
+.btn4{
+    width: 14%;
+    height: 30px;
+    border: thin solid #0355cc;
+    background-color: #0355cc;
+    margin-top: -20px;
+    margin-left: 580px;
+    border-radius:2px;
+    padding-top: 15px;
+    cursor: pointer;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.view_more:hover {
+    background-color: white;
+    color: #0355cc;
+}

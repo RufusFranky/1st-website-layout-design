@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fifth_container{
+    height: 600px;
+    /* border: thin solid red; */
+    background-color: white;
+}
+.review_head{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 85%;
+    /* border: thin solid red; */
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-size: 31px;
+    text-align: center;
+}
+.outer_box{
+    margin: 0 auto;
+    width: 85%;
+    height: 300px;
+    margin-top: 100px;
+    /* border: thin solid red; */
+    position: relative;
+}
+.review_box1{
+    width: 46%;
+    height: 280px;
+    /* border: thin solid rgb(255, 0, 0); */
+    float: left;
+    margin-left: 25px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 0px 5px 1px rgb(179, 178, 178);
+}
+.client1_img{
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.review_box2{
+    width: 46%;
+    height: 280px;
+    /* border: thin solid rgb(255, 0, 0); */
+    float: left;
+    margin-left: 590px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 0px 5px 1px rgb(179, 178, 178);
+}
+.client2_img{
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.client1_name{
+    font-family: 'Gill Sans', Calibri;
+    text-align: center;
+    margin-top: -90px;
+    margin-left: -110px;
+    font-size: large;
+}
+.client2_name{
+    font-family: 'Gill Sans', Calibri;
+    text-align: center;
+    margin-top: -90px;
+    margin-left: -110px;
+    font-size: large;
+}
+.review_para{
+    margin: 14px;
+    font-family: 'Gill Sans', Calibri;
+    line-height: 24px;
+    margin-top: 100px;
+    /* border: thin solid red; */
+    font-size: 17px;
+}
+.left_arrow{
+    width: 4%;
+    height: 50px;
+    /* border: thin solid red; */
+    background-color: #0355cc;
+    float: left;
+    margin-left: 600px;
+    cursor: pointer;
+    
+}
+.right_arrow{
+    width: 4%;
+    height: 50px;
+    /* border: thin solid red; */
+    background-color: #0355cc;
+    float: left;
+    margin-left: 38px;
+    cursor: pointer
+}
+.arrow_icon{
+    width: 40%;
+    margin: 15px;
+}
